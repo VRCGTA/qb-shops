@@ -75,6 +75,8 @@ Config.Products = {
         {name = 'weapon_pistol',        price = 2500, amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
         {name = 'weapon_snspistol',     price = 1500, amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
         {name = 'weapon_vintagepistol', price = 4000, amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
+        {name = 'smg_ammo',             price = 1000,  amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
+        {name = 'weapon_assaultsmg',    price = 1000000, amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
     },
     ['casino'] = {
         {name = 'casinochips', price = 1, amount = 999999, info = {}, type = 'item'}
