@@ -27,6 +27,7 @@ Config.Products = {
         {name = 'bandage',       price = 100, amount = 50,   info = {}, type = 'item'},
         {name = 'lighter',       price = 2,   amount = 50,   info = {}, type = 'item'},
         {name = 'rolling_paper', price = 2,   amount = 5000, info = {}, type = 'item'},
+        {name = 'skateboard',    price = 2500,   amount = 1, info = {}, type = 'item'},
     },
     ['liquor'] = {
         {name = 'beer',    price = 7,  amount = 50, info = {}, type = 'item'},
