@@ -59,8 +59,10 @@ Config.Products = {
         {name = 'rolling_paper',  price = 2,   amount = 1000, info = {}, type = 'item'},
     },
     ['gearshop'] = {
-        {name = 'diving_gear', price = 2500, amount = 10, info = {}, type = 'item'},
-        {name = 'jerry_can',   price = 200,  amount = 50, info = {}, type = 'item'},
+        {name = 'diving_gear',  price = 2500, amount = 10, info = {}, type = 'item'},
+        {name = 'jerry_can',    price = 200,  amount = 50, info = {}, type = 'item'},
+        {name = 'syphoningkit', price = 5000, amount = 5, info = {gasamount = 0}, type = 'item'},
+        {name = 'jerrycan',     price = 750,  amount = 5, info = {gasamount = 0}, type = 'item'},
     },
     ['leisureshop'] = {
         {name = 'parachute',   price = 2500, amount = 10, info = {}, type = 'item'},
