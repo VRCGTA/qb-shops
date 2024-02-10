@@ -35,6 +35,7 @@ Config.Products = {
         {name = 'weapon_hammer',     price = 250, amount = 250, info = {}, type = 'item'},
         {name = 'repairkit',         price = 250, amount = 50,  info = {}, type = 'item', requiredJob  = { 'mechanic', 'police' }},
         {name = 'screwdriverset',    price = 350, amount = 50,  info = {}, type = 'item'},
+        {name = 'tablet',            price = 100, amount = 50,  info = {}, type = 'item'},
         {name = 'phone',             price = 850, amount = 50,  info = {}, type = 'item'},
         {name = 'radio',             price = 250, amount = 50,  info = {}, type = 'item'},
         {name = 'binoculars',        price = 50,  amount = 50,  info = {}, type = 'item'},
@@ -75,7 +76,7 @@ Config.Products = {
         {name = 'weapon_snspistol',     price = 1500, amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
         {name = 'weapon_vintagepistol', price = 4000, amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
         {name = 'smg_ammo',             price = 1000,  amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
-        {name = 'weapon_assaultsmg',    price = 1000000, amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
+        {name = 'weapon_assaultsmg',    price = 50000, amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
     },
 }
 
