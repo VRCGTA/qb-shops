@@ -79,6 +79,16 @@ Config.Products = {
         {name = 'smg_ammo',             price = 1000,  amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
         {name = 'weapon_assaultsmg',    price = 50000, amount = 5,   info = {}, type = 'weapon', requiredLicense = { 'weapon' }},
     },
+    ['seniti_cafe'] = {
+        {name = 'seniti_mango',         price = 0,  amount = 10, info = {}, type = 'item',   requiredJob = { 'caffe' }},
+        {name = 'seniti_strawberry',           price = 0,  amount = 10, info = {}, type = 'item',   requiredJob = { 'caffe' }},
+        {name = 'seniti_matcha',       price = 0,  amount = 10, info = {}, type = 'item',   requiredJob = { 'caffe' }},
+        {name = 'seniti_lemonade',          price = 0,  amount = 10, info = {}, type = 'item',   requiredJob = { 'caffe' }},
+        {name = 'seniti_kuma',        price = 0, amount = 10,   info = {}, type = 'item', requiredJob = { 'caffe' }},
+        {name = 'seniti_rusk',     price = 0, amount = 10,   info = {}, type = 'item', requiredJob = { 'caffe' }},
+        {name = 'seniti_donuts', price = 0, amount = 10,   info = {}, type = 'item', requiredJob = { 'caffe' }},
+        {name = 'seniti_osatou',             price = 0,  amount = 10,   info = {}, type = 'item', requiredJob = { 'caffe' }},
+    },
 }
 
 Config.Locations = {
@@ -665,5 +675,21 @@ Config.Locations = {
         ['blipscale'] = 0.8,
         ['blipcolor'] = 0,
         ['delivery'] = vector4(-1507.64, 1505.52, 115.29, 262.2)
+    },
+
+    ['seniti_caffe'] = {
+        ['label'] = '1001 Caffe',
+        ['coords'] = vector4(328.80, -888.30, 60.20, 129.32),
+        ['ped'] = 'mp_m_shopkeep_01',
+        ['scenario'] = 'WORLD_HUMAN_STAND_MOBILE',
+        ['radius'] = 5,
+        ['targetIcon'] = 'fas fa-shopping-basket',
+        ['targetLabel'] = 'Open Menu',
+        ['products'] = Config.Products['seniti_cafe'],
+        ['showblip'] = false,
+        ['blipsprite'] = 52,
+        ['blipscale'] = 0.6,
+        ['blipcolor'] = 0,
+        ['delivery'] = vector4(286.31, -937.04, 29.47, 306.28)
     },
 }
