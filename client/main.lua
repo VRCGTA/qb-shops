@@ -11,7 +11,6 @@ local function createBlips()
     if pedSpawned then return end
 
     for store in pairs(Config.Locations) do
-        print(store)
         if Config.Locations[store]["showblip"] then
             local StoreBlip = AddBlipForCoord(Config.Locations[store]["coords"]["x"], Config.Locations[store]["coords"]["y"], Config.Locations[store]["coords"]["z"])
             SetBlipSprite(StoreBlip, Config.Locations[store]["blipsprite"])
